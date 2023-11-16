@@ -1,0 +1,76 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-16">
+    <title>Blackvert Store</title>
+    <link rel="stylesheet" href="../config/css/main.css">
+    <link rel="stylesheet" href="./register.css">
+    <script src="../config/js/register.js"></script>
+</head>
+<body>
+    <header class="top">
+        <h1 id="Blackvert"><a href="../index.html">Blackvert</a></h1>
+        <nav class="top_menu">
+            <input type="checkbox" id="menu_check">
+            <div class="menu_movil">
+                <ul id="nav_main">
+                    <li><a href="../ropa/camisas.html">Camisas</a></li>
+                    <li><a href="../ropa/sudaderas.html">Sudaderas</a></li>
+                    <li><a href="../ropa/accesorios.html">Accesorios</a></li>
+                    <li><a href="../ropa/especiales.html">Especiales</a></li>
+                    <li><a href="../user/login.html">Cuenta</a></li>
+                    <li><a href="../user/carrito.html">Carrito</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <left class="left"></left>
+    <section class="main">
+        <form action="">
+            <ul>
+                <li id="username">
+                    <label for="username">Nombre de usuario</label>
+                    <br/>
+                    <input type="text" id="username_t">
+                </li>
+                <li id="email">
+                    <label for="email">Correo electrónico</label>
+                    <br/>
+                    <input type="email" id="email_t">
+                </li>
+                <li id="c_email">
+                    <label for="c_email">Confirma correo electrónico</label>
+                    <br/>
+                    <input type="email" id="c_email_t">
+                </li>
+                <li id="password">
+                    <label for="password">Contraseña</label>
+                    <br/>
+                    <input type="password" id="password_t">
+                </li>
+                <li id="c_password">
+                    <label for="c_password">Confirmar contraseña</label>
+                    <br/>
+                    <input type="password" id="c_password_t">
+                </li>
+                <br/>
+                <input type="submit" value="Entrar" id="but_enter" onclick="TryRegister();">
+            </ul>
+            <h3>¿Ya tienes cuenta? <a href="./login.html">Iniciar sesión</a></h3>
+        </form>
+    </section>
+    <right class="right"></right>
+    <footer class="footer">
+        <ul class="foo_apartados">
+            <ul id="foo_contacto">
+                <li><h4>Contacto</h4></li>
+                <li>Email: blackvert@gmail.com</li>
+                <li>Dirección: Santa Cruz</li>
+            </ul>
+            <ul id="foo_redes">
+                <li><h4>Síguenos en redes sociales</h4></li>
+                <li><a href="https://www.instagram.com/blackvert_st/">Instagram</i></a></li>
+                <li>Otros</li>
+            </ul>
+        </ul>
+    </footer>
+</body>

@@ -1,0 +1,60 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackvert Store</title>
+    <link rel="stylesheet" href="../config/css/main.css" media="screen">
+    <link rel="stylesheet" href="../config/css/index.css" media="screen">
+    <style>
+        .main{
+            border: solid 1px red;
+        }
+    </style>
+    <script>
+        function Cargar(vista) {
+            const mainContent = document.querySelector('.main');
+            fetch(vista)
+                .then(response => response.text()) 
+                .then(data => { mainContent.innerHTML = data;})
+                .catch(error => console.error('Error al cargar la vista:', error));
+        }
+    </script>
+</head>
+<body>
+    <header class="top">
+        <h1 id="Blackvert"><a href="../index.html">Blackvert</a></h1>
+        <nav class="top_menu">
+            <input type="checkbox" id="menu_check">
+            <div class="menu_movil">
+                <ul id="nav_main">
+                    <li><a onclick="Cargar('t1.html');">T1</a></li>
+                    <li><a onclick="Cargar('t2.html');">T2</a></li>
+                    <li><a onclick="Cargar('t3.html');">T3</a></li>
+                    <li><a onclick="Cargar('t1.html');">T1</a></li>
+                    <li><a onclick="Cargar('t2.html');">T2</a></li>
+                    <li><a onclick="Cargar('t3.html');">T3</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <left class="left"></left>
+    <section class="main">
+        
+    </section>
+    <right class="right"></right>
+    <footer class="footer">
+        <ul class="foo_apartados">
+            <ul id="foo_contacto">
+                <li class="foo_1li">Contacto</li>
+                <li>Email: blackvert@gmail.com</li>
+                <li>Dirección: Santa Cruz</li>
+            </ul>
+            <ul id="foo_redes">
+                <li class="foo_1li">Síguenos en redes sociales</li>
+                <li><a href="https://www.instagram.com/blackvert_st/">Instagram</i></a></li>
+                <li>Otros</li>
+                <li><a href="./test/mvc.html">pruebas</a></li>
+            </ul>
+        </ul>
+    </footer>
+</body>

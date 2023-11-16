@@ -1,0 +1,80 @@
+Requisitos:
+    Deberás crear una pagina de detalle de producto o servicio. La página deberá contener:
+
+Requisitos generales:
+ - Maquetadas en HTML5 y CSS3.
+ - Todas las páginas del proyecto deberán incorporar la paleta de color y la tipografía seleccionadas.
+ - Deberán implementarse el modo día y el modo noche en todas las páginas. 
+ - Podrán usarse los módulos Flexbox y Grid y la biblioteca Bootstrap.
+ - Principio mobile-first.
+ - Cubrirá al menos tres tamaños de pantalla, incluyendo los estilos por defecto.
+ - Harán uso del mínimo número de clases necesarias.
+ - Deberá tener la misma cabecera, el mismo menú y el mismo pie que el resto de páginas.
+ - Bajo la cabecera saldrán las opciones de inicio de sesión y de registro o el nombre del usuario y la opción 
+   de cierre de sesión.
+
+Requisitos de la página de detalle del producto
+ - Fotografía del producto que ocupe al menos un 50% de ancho del contenedor.
+ - Álbum de miniaturas de fotografías.
+ - Título del producto.
+ - Descripción del producto.
+ - Precio del producto.
+ - Condiciones de venta (gastos de envío y similares).
+ - Características técnicas o equivalente, representada mediante una tabla u otro método adecuado para 
+   este propósito.
+ - Botones de "agregar al carrito" y de "comprar" o equivalente. Se acompañará de un selector de unidades 
+   o equivalente.
+ - Indicador de reputación.
+ - Área de reseñas, comentarios o valoraciones de los usuarios.
+ - Apartado específico para consultar dudas (puede ser un formulario completo o un botón).
+
+Calificación
+    Se calificará cada página por separado, atendiendo a los siguientes criterios:
+
+Detalle del producto:
+ - Fotografía del producto que ocupe al menos un 50% de ancho del contenedor. (1 puntos)
+ - Álbum de miniaturas de fotografías. (1 puntos)
+ - Título del producto. (0,3 puntos)
+ - Descripción del producto. (0,3 puntos)
+ - Precio del producto. (0,3 puntos)
+ - Condiciones de venta (gastos de envío y similares). (0,3 puntos)
+ - Características técnicas o equivalente, representada mediante una tabla u otro método adecuado para este 
+   propósito. (1 puntos)
+ - Botones de "agregar al carrito" y de "comprar" o equivalente. Se acompañará de un selector de unidades o 
+   equivalente. (1 puntos)
+ - Indicador de reputación. (0,4 puntos)
+ - Área de reseñas, comentarios o valoraciones de los usuarios. (1 puntos)
+ - Apartado específico para consultar dudas (puede ser un formulario completo o un botón). (0,4 puntos)
+ - Requisitos generales:         
+ - Maquetadas en HTML5 y CSS3.  (0,3 puntos)
+ - Podrán usarse los módulos Flexbox y Grid y la biblioteca Bootstrap. (0,3 puntos)
+ - Principio mobile-first. (0,6 puntos)
+ - Cubrirá al menos tres tamaños de pantalla, incluyendo los estilos por defecto. (0,6 puntos)
+ - Harán uso del mínimo número de clases necesarias. (0,6 puntos)
+ - Deberá tener la misma cabecera, el mismo menú y el mismo pie que el resto de páginas. (0,3 puntos)
+ - Bajo la cabecera saldrán las opciones de inicio de sesión y de registro o el nombre del usuario y la 
+   opción de cierre de sesión. (0,3 puntos)
+
+Requisitos anteriores:
+ - La falta de corrección de los requisitos de la actividad anterior se penalizará con un 10% como máximo de 
+   la clasificación obtenida, si bien nunca l bajará por debajo del 5.
+
+Estos criterios serán evaluados de manera presencial. En todos ellos se valorará el resultado de la 
+implementación (30%), el uso correcto y eficiente de selectores (30%) y la justificación de la elección 
+realizada (40%).
+
+Consejos:
+ - Aunque hemos hablado de aplicar los principios de diseño mobile-first, podemos empezar por la versión 
+   escritorio a modo de primera maqueta y, una vez estemos satisfechos con el diseño, englobarlo en una media 
+   query y proseguir con los estilos propios de otras dimensiones de pantalla.
+ - No es necesario volcarse en perfilar el diseño gráfico. En esta primera versión nos interesa sobre todo 
+   establecer la disposición de elementos, sin atender a criterios gráficos específicos. Por supuesto, puedes 
+   darle un diseño todo lo avanzado que quieras, pero es posible que te veas en la obligación de realizar 
+   modificaciones en futuras entregas si no cumples con criterios de diseño.
+ - Un aspecto relevante es conseguir que la cabecera sea igual en todas las páginas. Esto puede tener un 
+   impacto significativo si hacemos una elección inadecuada (por ejemplo, si la cabecera es demasiado grande 
+   y roba mucho espacio). En caso de dudas siempre puedes crear dos versiones de la página (es decir, dos 
+   landing-pages y dos catálogos) para poder contrastar las versiones.
+ - Lo mismo sucede con el catálogo. Es posible que en la versión móvil la exigencia de mostrar al menos tres 
+   elementos por fila constriña mucho la información. Si tienes esa sensación, crea dos versiones del catálogo 
+   para móviles, una con tres elementos por fila y otra con menos elementos, para poder justificar tu decisión.

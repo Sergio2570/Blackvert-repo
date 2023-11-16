@@ -1,0 +1,31 @@
+css global
+index
+
+Perfil 
+Carrito
+
+top
+Productos
+    Camisetas
+        Camisetas
+        Camisas
+        Tops
+    Sudaderas
+        Sudaderas
+    Accesorios
+        Anillos
+        Pendientes
+        Collares
+    Especial
+        Productos de temporada
+        Edición limitada
+    Sorteos
+/Productos
+menu
+
+main 
+- casillas
+
+Cambiar estilo del menú de arriba
+Decorar footer
+Arreglar main + lados

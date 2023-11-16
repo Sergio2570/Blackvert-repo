@@ -1,0 +1,6 @@
+{                                                           }
+Menú  icono               NombreTienda                LogIn
+{                                                           }
+-------------------------------------------------------------
+
+tabla 2 objetos por fila 

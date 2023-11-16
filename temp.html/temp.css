@@ -1,0 +1,12 @@
+img {
+    display: block;
+}
+ul {
+    display: inline-block;
+}
+#producto_titulos, #producto_caracteristicas {
+    font-size: 25px;
+}
+#producto_titulos li {
+    font-weight: bold;
+}

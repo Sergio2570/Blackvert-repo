@@ -1,0 +1,32 @@
+Hacer animación introducción página web
+Cookies (oscar pesado)
+Menú 
+    Artículos
+        Camisetas
+        Sudaderas
+        Accesorios
+    Registro  
+    LogIn
+    RRSS
+    Idiomas
+        ESP
+        ENG
+    Contacto
+Logo
+Perfil 
+Carrito
+NombreTienda
+
+2 artículos por fila (max x)
+
+Destacados temporada
+
+Drops
+
+/*FOOTER*/
+Contacto
+Empresa
+Instagram 
+Localización
+Guía tallas | https://www.madkat.store/es/tallas/
+Derechos reservados
